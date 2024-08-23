@@ -3,7 +3,6 @@ from .serializers import BranchSerializer, BranchImageSerializer, RegionSerializ
 from .models import Branch, BranchImage, Region
 from rest_framework import viewsets
 
-
 # Create your views here.
 class BranchAPIList(viewsets.ModelViewSet):
     queryset = Branch.objects.all()
